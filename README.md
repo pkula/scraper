@@ -1,7 +1,9 @@
 # python
 # Google scraper
 
-This project was created for the company clearcode as a job intership
+This project was created for the company clearcode as a job intership.
+
+You can change number days in set.py file in google_scraper folder
 
 
 ```Python
