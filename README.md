@@ -6,6 +6,7 @@ This project was created for the company clearcode as a job intership.
 You can change number days in set.py file in google_scraper folder
 
 
+
 ```Python
 use:
 pip3 install -r requirements.txt
@@ -28,7 +29,7 @@ This program get a phrase and gives raport
 
 Project is created with:
 * Python 3.6.7
-* selenium
+* selenium - you have to configure selenium
 
 
 ## Author
