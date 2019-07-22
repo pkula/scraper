@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zadanie</title>
+</head>
+
+<body>
+    Fraza której szukałeś to: "{{ query.phrase }}"<br><br>
+    Linki:<br><br>
+                {% for d in data %}
+                  {{ d.num }} {{ d.link }}<br><br>
+                {% endfor %}
+    ###################################################################<br>
+                Liczba wyników: ok. {{ num_results }}<br>
+    ###################################################################<br>
+        Najpopularniejsze słowa:<br>
+                {% for w in words %}
+                  {{w}}<br>
+                {% endfor %}
+    ###################################################################
+
+</body>
+</html>
